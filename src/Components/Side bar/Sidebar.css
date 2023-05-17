@@ -1,0 +1,43 @@
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem ;
+    background: #FFFFFF;
+    width: fit-content;
+    height: 100vh;
+box-shadow: 0px 0px 23px rgba(13, 153, 255, 0.14);
+float: left;
+padding: 2rem;
+    
+}.navicons{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+
+}
+.navicons .text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.icons img{
+    height: 22px ;
+    width: 22px;
+}.text{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+NavLink{
+    color: black;
+}
+.active{
+    color:#0D99FF;
+}

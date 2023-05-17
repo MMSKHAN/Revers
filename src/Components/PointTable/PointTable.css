@@ -1,0 +1,34 @@
+.pointTable{
+    background: rgba(83, 112, 129, 0.05);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color:  #000000;
+padding: 1rem;
+font-weight: bold;
+}.pointTablerow{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}.idcolor{
+    background: rgba(33, 126, 253, 0.1);
+border-radius: 5px;
+color: #217EFD;
+padding-left: 10px;
+padding-right: 10px;
+}.pointtrachicon{
+    color: #5A55D2;
+    font-size: 15px;
+
+}

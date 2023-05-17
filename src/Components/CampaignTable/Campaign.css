@@ -1,0 +1,135 @@
+.compaginheader{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: rgba(83, 112, 129, 0.15);
+border-radius: 15px;
+padding: 1rem;
+}.compaginheader p{
+  font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+font-weight: bold;
+}.compaginrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 14px;
+}.clientimg{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}.img{
+  width: 50%;
+}.img img{
+  width: 100%;
+}.crew{
+  font-weight: bold;
+}.pin{
+  font-size: 18px;
+}.chatclip{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}.chat,.clip{
+  background: rgba(13, 153, 255, 0.1);
+border-radius: 6px; font-size: 16px;
+padding: 5px 5px;
+}.compaginclientinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}.compaginright{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+font-weight: bold;
+
+}.all,.promotion{
+width: 434px;
+height: 64px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+background: #F8F9FA;
+border-radius: 6px;
+padding-left: 2rem;
+padding-right: 2rem;
+font-weight: normal;
+}
+.compaginleft{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+font-weight: bold;
+}.grapharea{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}.leftgraph{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  }
+  .activeinactive{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }.activespace,.inactive{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+  }
+  .activecolor{
+width: 13px;
+height: 13px;
+background: #393D4D;
+border-radius: 4px;
+  }
+  .inactivecolor{
+width: 13px;
+height: 13px;
+
+background: #206AB5;
+border-radius: 4px;
+  }
+  .activetext{
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+position: relative;
+top: 8px;
+
+  }.charts{
+    width: 100%;
+    height: 75%;
+  }
+  .none{
+    display: none;
+  }.IDcamp{
+    background: rgba(33, 126, 253, 0.1);
+    border-radius: 5px;
+    /* line-height: 2px; */
+   display:flex;
+   align-items: center;
+   /* padding: 1rem; */
+ color:  #217EFD;
+
+  }

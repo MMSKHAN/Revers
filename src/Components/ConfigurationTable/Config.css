@@ -1,0 +1,80 @@
+.clientbody{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}.converter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}.clientbodylieft,.clientbodyright{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: Inter;
+font-size: 16px;
+font-weight: bold;
+text-align: left;
+
+}.configbox{
+
+display: flex;
+align-items: center;
+    height: 64px;
+    width: 421px;
+    border-radius: 6px;
+    padding-left: 1rem;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+background: #F8F9FA;
+border-radius: 6px;
+font-weight: normal;
+}.configbox input{
+    border: none;
+    background: #F8F9FA;
+}
+.configbtn{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+background: #F8F9FA;
+border-radius: 6px;
+width: 30%;
+
+}.configbtn input{
+    border: none;
+    background: #F8F9FA;
+    width: 100%
+}
+.arrowsize{
+    font-size: 1rem;
+}.files{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}.fileuplod input{
+    display: none;
+}.fileuplod{
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    background: #0D99FF;
+border-radius: 13px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+
+}

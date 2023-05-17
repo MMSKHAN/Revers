@@ -1,0 +1,28 @@
+.ActiveTable{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(83, 112, 129, 0.05);
+border-radius: 15px;
+padding: 1rem;
+font-family: Poppins;
+font-size: 14px;
+font-weight: bold;
+}.PointClientimg{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.01em;
+
+}.PointClientimg img{
+    position: relative;
+    bottom: 9px;
+}
